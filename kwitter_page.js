@@ -1,4 +1,3 @@
-//YOUR FIREBASE LINKS
 var firebaseConfig = {
       apiKey: "AIzaSyD5Hlq6YUufjAe1Y_F7wv-qbWRC8r-xuPs",
       authDomain: "mycitybot-xgwu.firebaseapp.com",
