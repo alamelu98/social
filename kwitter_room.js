@@ -1,16 +1,17 @@
 
 //ADD YOUR FIREBASE LINKS
 var firebaseConfig = {
-  apiKey: "AIzaSyD5Hlq6YUufjAe1Y_F7wv-qbWRC8r-xuPs",
-  authDomain: "mycitybot-xgwu.firebaseapp.com",
-  projectId: "mycitybot-xgwu",
-  storageBucket: "mycitybot-xgwu.appspot.com",
-  messagingSenderId: "421804753404",
-  appId: "1:421804753404:web:fcb4571546c096855a3279",
-  measurementId: "G-8HQM4ZPLE8"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+      apiKey: "AIzaSyD5Hlq6YUufjAe1Y_F7wv-qbWRC8r-xuPs",
+      authDomain: "mycitybot-xgwu.firebaseapp.com",
+      databaseURL: "https://mycitybot-xgwu-default-rtdb.firebaseio.com",
+      projectId: "mycitybot-xgwu",
+      storageBucket: "mycitybot-xgwu.appspot.com",
+      messagingSenderId: "421804753404",
+      appId: "1:421804753404:web:9a6bbcff529cd7825a3279",
+      measurementId: "G-H45B9CXJVQ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
   user_name = localStorage.getItem("user_name");
 
 document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
